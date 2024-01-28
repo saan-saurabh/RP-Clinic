@@ -1,0 +1,10 @@
+.footer-main-div{
+    display:block;
+    padding: 1%;
+    background-color: aqua;
+}
+
+.footer-main-div .footer-inside-block{
+    display:flex;
+    justify-content: space-evenly;
+}
