@@ -1,5 +1,38 @@
 .navbar-main-div{
     display: flex;
     justify-content: space-between;
-    padding: 1%;
+  }
+
+  .navbar-main-div .navbar-make-appointment-button{
+    padding:5px;
+  }
+  .navbar-main-div .navbar-make-appointment-button .navbar-right-pane{
+    display:flex;
+    justify-content: space-evenly;
+  }
+  .navbar-main-div .navbar-make-appointment-button .navbar-right-pane button{
+    display:block;
+    padding:8px;
+    border:none;
+    color:#0D5DBD;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #fff;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:20px;
+    font-size: 17px;
+
+  }
+  .navbar-main-div .navbar-make-appointment-button .navbar-right-pane .list-button{
+    border-radius: 15px;
+    background-color: #0D5DBD;
+    color:#fff;
+    border: 3px solid #0D5DBD;
+  }
+
+  .navbar-main-div .navbar-make-appointment-button .navbar-right-pane .list-button:hover{
+    border: 3px solid #0D5DBD;
+    background-color: #fff;
+    color:#0D5DBD;
   }
