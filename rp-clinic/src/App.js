@@ -9,8 +9,6 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <h1>RP CLINIC</h1>
-      <Button variant="outlined">Hello world</Button>
       <MainCrousel/>
       <Footer/>
     </div>
