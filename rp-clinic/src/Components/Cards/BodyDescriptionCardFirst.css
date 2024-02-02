@@ -30,9 +30,10 @@
     width:25%;
     height:15vh;
     background-color: #fff;
-    border-radius: 5%;
+    border-radius: 10px;
     padding:5px;
     text-align:center;
+    border:3px solid rgb(226, 226, 229);
 }
 
 .main-division .inside-cards .description-cards span{
