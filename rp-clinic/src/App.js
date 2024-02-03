@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer';
 import MainCrousel from './Components/CrouselCard/MainCrousel';
 import BodyDescriptionCardFirst from './Components/Cards/BodyDescriptionCardFirst';
 import DoctorProfile from './Components/Cards/DoctorProfile';
+import ServiceComponent from './Components/Cards/ServiceComponent';
 import Button from '@mui/material/Button';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <MainCrousel/>
       <BodyDescriptionCardFirst/>
+      <ServiceComponent/>
       <DoctorProfile/>
       <Footer/>
     </div>

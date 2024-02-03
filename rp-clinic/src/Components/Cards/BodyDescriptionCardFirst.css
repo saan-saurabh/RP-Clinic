@@ -4,10 +4,10 @@
     width:100%;
     background-color: #7ba7d6;
     color:#fff;
-    padding:25px;
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    padding:3% 0% 3% 0%;
 }
 .main-division .main-div-heading{
     font-size:30px;
