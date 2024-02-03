@@ -33,9 +33,14 @@
     letter-spacing: 0.5px;
     color:#0D5DBD;
 }
+.profile-maain-div .img-description-wrapper .profile-name-img-div .doctor-qualification{
+    color:#808080;
+    font-size: 12px;
+    font-weight: bold;
+}
 .profile-maain-div .img-description-wrapper .profile-description{
     width: 100%;
-    background-color: #7ba7d6;
+    background-color: #fff;
     text-align: justify;
     text-justify: inter-word;
     padding: 3% 5% 3% 20%;
@@ -43,15 +48,18 @@
     border:3px solid#f0f2ee;
 }
 .profile-maain-div .img-description-wrapper .profile-description .name-heading{
-    font-size: 35px;
+    font-size:20px;
     font-weight: bold;
     letter-spacing: 0.5px;
-    color:#fff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    color:#7ba7d6;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-maain-div .img-description-wrapper .profile-description .name-heading .customized-doctor-heading{
+    font-size: 20px;
 }
 .profile-maain-div .img-description-wrapper .profile-description .profile-details{
     font-size: 16px;
     letter-spacing: 0.5px;
-    color:#fff;
-    font-weight: 500;
+    color:#808080;
+    font-weight: 400;
 }

@@ -1,0 +1,49 @@
+.service-component-main-div {
+    width: 100%;
+    background-color: #A4D461;
+    padding: 5% 0% 5% 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-component-main-div .our-service-heading {
+    width: 100%;
+    display: block;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-component-main-div .service-card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 1% 0% 1% 0%;
+
+}
+
+.service-component-main-div .service-card {
+    width: 25%;
+    padding: 10px;
+    height: 130px;
+    border: 3px solid rgb(226, 226, 229);
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.service-component-main-div .service-card .service-card-heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #A4D461;
+    letter-spacing: 0.5px;
+}
+
+.service-component-main-div .service-card .service-card-details {
+    font-size: 16px;
+    color: #808080;
+    text-align: center;
+    letter-spacing: 0.5px;
+}

@@ -1,10 +1,12 @@
 .footer-main-div{
+    width:100%;
     display:block;
     background-color: #fff;
 }
 
 .footer-main-div .footer-inside-block{
     display:flex;
+    width:100%;
     justify-content: space-evenly;
     font-weight: 500;
 }
