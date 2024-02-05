@@ -1,0 +1,36 @@
+.appointment-component-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:50%;
+    background-color: #7ba7d6;
+    padding:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:20vh;
+}
+.appointment-component-main .appointment-heading{
+    font-size: 30px;
+    color: #fff;
+
+}
+.appointment-component-main .appointment-heading span{
+    font-size: 17px;
+    color: #fff;
+}
+.appointment-component-main .appointment-button{
+    display:block;
+    padding:8px;
+    border-radius: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color:#fff;
+    border: 3px solid #fff;
+    cursor: pointer;
+    font-size: 17px;
+}
+.appointment-component-main .appointment-button:hover{ 
+    border: 3px solid #7ba7d6;
+    background-color: #fff;
+    color:#7ba7d6;
+}

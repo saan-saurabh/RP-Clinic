@@ -1,0 +1,35 @@
+.emergency-contact-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:50%;
+    background-color: #aac9ed;
+    padding:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:20vh;
+}
+.emergency-contact-main .emergencycontact-heading{
+    font-size: 30px;
+    color: #fff;
+}
+.emergency-contact-main .emergencycontact-heading span{
+    font-size: 17px;
+    color: #fff;
+}
+.emergency-contact-main .emergency-call-button{
+    display:block;
+    padding:8px;
+    border-radius: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color:#fff;
+    border: 3px solid #fff;
+    cursor: pointer;
+    font-size: 17px;
+}
+.emergency-contact-main .emergency-call-button:hover{
+    border: 3px solid #aac9ed;
+    background-color: #fff;
+    color:#aac9ed;
+}
