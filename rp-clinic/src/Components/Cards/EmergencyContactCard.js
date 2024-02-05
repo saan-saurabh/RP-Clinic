@@ -6,7 +6,7 @@ function EmergencyContactCard() {
     <div className='emergency-contact-main'>
         <div className='emergencycontact-heading'>For Any Emergency Contact<br/><span>Call us!</span></div>
         <button className='emergency-call-button'>
-            +91-900900900
+            +91-9205570105
         </button>
     </div>
   );
