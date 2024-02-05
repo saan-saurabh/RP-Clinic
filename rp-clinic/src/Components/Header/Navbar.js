@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from './Logo'
 import './Navbar.css'
 
-function Navbar() {
+function Navbar({isOpen,onClose,onOpen}) {
   return (
     <div className='navbar-main-div'>
       <div>
@@ -14,7 +14,7 @@ function Navbar() {
           <button className='list-menu'>SERVICES</button>
           <button className='list-menu'>CONTACT</button>
           <button className='list-menu'>ABOUT</button>
-          <button className='list-button'>MAKE APPOINTMENT</button>
+          <button className='list-button' onClick={onOpen}>MAKE APPOINTMENT</button>
         </div>
       </div>
     </div>
