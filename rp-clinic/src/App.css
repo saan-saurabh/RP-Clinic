@@ -5,3 +5,8 @@
 .main-body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.energency-appointment-panel{
+  display: flex;
+  width:100%;
+}
