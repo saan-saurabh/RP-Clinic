@@ -24,7 +24,10 @@
 .inside{
     width:50%;
     display:flex;
-    padding:1%
+    padding:1%;
+    border:3px solid rgb(226, 226, 229);
+    border-radius: 10px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 .img{
     width:25%;
@@ -33,7 +36,6 @@
     border-radius: 10px;
     background-color: #fff;
     text-align: center;
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5);
     font-size:16px;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -52,11 +54,6 @@
     padding:2%;
     text-align: justify;
     text-justify: inter-word;
-    border-top: 3px solid rgb(226, 226, 229);
-    border-right: 3px solid rgb(226, 226, 229);
-    border-bottom: 3px solid rgb(226, 226, 229);
-    border-radius: 10px;
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5);
     background-color:#fff;
-    font-weight: 500;
+    font-weight: 400;
 }

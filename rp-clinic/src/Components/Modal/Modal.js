@@ -1,4 +1,5 @@
 import React from 'react';
+import AppointmentForm from '../Forms/AppointmentForm';
 import './Modal.css';
 
 function Modal({isOpen,onClose}) {
@@ -7,9 +8,11 @@ function Modal({isOpen,onClose}) {
     <div className='modal-main-div'>
         <div className='modal-inside-div'>
             <div className='modal-close-button-container'>
-                <button className='close-button' onClick={onClose}>X</button>
+                <button className='close-button' onClick={onClose}>Back</button>
             </div>
-        <div><h1>hi its me</h1></div>
+            <div className='form-content'>
+            <AppointmentForm/>
+            </div>
         </div>
     </div>
   );
