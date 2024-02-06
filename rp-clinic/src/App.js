@@ -12,7 +12,6 @@ import EmergencyContactCard from './Components/Cards/EmergencyContactCard';
 import DoctorProfileCard from './Components/Cards/DoctorProfileCard';
 import Doctor from './Components/Cards/Doctor';
 import Button from '@mui/material/Button';
-import Modal from './Components/Modal/Modal';
 
 
 function App() {
