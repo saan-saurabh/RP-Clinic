@@ -11,7 +11,9 @@ import AppointmentComponent from './Components/Cards/AppointmentComponent';
 import EmergencyContactCard from './Components/Cards/EmergencyContactCard';
 import DoctorProfileCard from './Components/Cards/DoctorProfileCard';
 import Doctor from './Components/Cards/Doctor';
+
 import Button from '@mui/material/Button';
+import TopScrollButton from './Components/TopScrollButton/TopScrollButton';
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
   }
   return (
     <div className='main-body'> 
+    <TopScrollButton/>
       <Navbar isOpen={isOpen} onClose={handleClose} onOpen={handleOpen}/>
       <MainCrousel/>
       <BodyDescriptionCardFirst/>
