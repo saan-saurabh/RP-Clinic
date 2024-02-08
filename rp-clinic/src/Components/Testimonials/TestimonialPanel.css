@@ -1,0 +1,21 @@
+.testimonial-panel-main-div{
+    width:100%;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left:2%;
+    padding-right:2%;
+    text-align: center;
+}
+.testimonial-panel-main-div .testimonial-heading{
+    color:#7ba7d6;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.testimonial-panel-main-div .testimonial-heading .small-heading{
+    font-size: 30px;
+}
+.testimonial-panel-main-div .testimonial-heading .bold-heading{
+    font-size: 45px;
+}

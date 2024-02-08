@@ -11,7 +11,7 @@ import AppointmentComponent from './Components/Cards/AppointmentComponent';
 import EmergencyContactCard from './Components/Cards/EmergencyContactCard';
 import DoctorProfileCard from './Components/Cards/DoctorProfileCard';
 import Doctor from './Components/Cards/Doctor';
-
+import TestimonialPanel from './Components/Testimonials/TestimonialPanel';
 import Button from '@mui/material/Button';
 import TopScrollButton from './Components/TopScrollButton/TopScrollButton';
 
@@ -36,6 +36,7 @@ function App() {
       <EmergencyContactCard/>
       <AppointmentComponent isOpen={isOpen} onClose={handleClose} onOpen={handleOpen}/>
       </div>
+      <TestimonialPanel/>
       <Footer/>
     </div>
     

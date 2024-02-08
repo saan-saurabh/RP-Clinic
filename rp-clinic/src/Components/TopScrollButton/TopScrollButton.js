@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import './TopScrollButton.css'
 
 function TopScrollButton() {
@@ -20,13 +21,12 @@ function TopScrollButton() {
         };
         return (
             <div className="top-to-btm">
-                {" "}
                 {showTopBtn && (
                     <button
                         className="icon-position icon-style"
                         onClick={goToTop}
-                    >/\</button>
-                )}{" "}
+                    ><ArrowUpwardIcon/></button>
+                )}
             </div>
         );
     };

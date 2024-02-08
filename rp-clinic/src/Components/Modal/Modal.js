@@ -1,4 +1,5 @@
 import React from 'react';
+import CloseIcon from '@mui/icons-material/Close';
 import AppointmentForm from '../Forms/AppointmentForm';
 import './Modal.css';
 
