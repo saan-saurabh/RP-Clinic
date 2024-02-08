@@ -29,6 +29,12 @@
     background-color: #fff;
     color: #0D5DBD;
     font-weight: bolder;
+    cursor: pointer;
+}
+.modal-main-div .modal-inside-div .modal-close-button-container .close-button:hover{
+    border:3px solid #0D5DBD;
+    background-color: #0D5DBD;
+    color: #fff;
 }
 .modal-main-div .modal-inside-div .form-content{
 
