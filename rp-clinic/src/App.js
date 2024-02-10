@@ -26,18 +26,7 @@ function App() {
   }
   return (
     <div className='main-body'> 
-    <TopScrollButton/>
       <Navbar isOpen={isOpen} onClose={handleClose} onOpen={handleOpen}/>
-      <MainCrousel/>
-      <BodyDescriptionCardFirst/>
-      <ServiceComponent/>
-      <Doctor/>
-      <div className='energency-appointment-panel'>
-      <EmergencyContactCard/>
-      <AppointmentComponent isOpen={isOpen} onClose={handleClose} onOpen={handleOpen}/>
-      </div>
-      <TestimonialPanel/>
-      <Footer/>
     </div>
     
 

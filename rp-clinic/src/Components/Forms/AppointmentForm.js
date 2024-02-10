@@ -89,7 +89,7 @@ function AppointmentForm() {
             </FormControl>
             <br />
             <LocalizationProvider dateAdapter={AdapterDayjs}>
-                <DatePicker sx={{ m: 1, minWidth: '35ch' }} />
+                <DatePicker sx={{ m: 1, minWidth: '35ch'}}/>
             </LocalizationProvider>
             <br />
             <FormControl sx={{ m: 1, minWidth: '35ch' }} size="small">

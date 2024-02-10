@@ -2,17 +2,18 @@
     width:20%;
     height:20vh;
     background-color: #fff;
-    box-shadow:2px 2px 2px 2px #d5d5d5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
+    border:2px solid #eeeded;
 }
 .user-feedback-main .user-name-row{
     width:100%;
     height: 60px;
-    background-color: #fff;
+    background-color: #fff;;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 }
 .user-feedback-main .user-name-row  .user-details{
     width:50%;
@@ -29,12 +30,12 @@
     width:45px;
     height:45px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color:#f7f8f8;
 }
 .user-name{
     font-size: 16px;
     font-weight: bold;
-    color: #0D5DBD;
+    color: #808080;
 }
 .user-name span{
     font-size: 10px;
@@ -51,6 +52,8 @@
     font-style: italic;
     padding:2% 5%;
     text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #808080;
 }
 .user-feedback-main .feedbac-footer{
     display: block;
