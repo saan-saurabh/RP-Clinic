@@ -10,6 +10,9 @@
     display:flex;
     justify-content: space-evenly;
   }
+  .navbar-main-div .navbar-make-appointment-button .navbar-right-pane .link-menu{
+    text-decoration: none;
+  }
   .navbar-main-div .navbar-make-appointment-button .navbar-right-pane button{
     display:block;
     padding:8px;
