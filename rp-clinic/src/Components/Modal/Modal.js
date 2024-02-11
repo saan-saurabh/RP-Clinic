@@ -9,7 +9,7 @@ function Modal({isOpen,onClose}) {
     <div className='modal-main-div'>
         <div className='modal-inside-div'>
             <div className='modal-close-button-container'>
-                <button className='close-button' onClick={onClose}>Back</button>
+                <button className='close-button' onClick={onClose}>{'< '}Back</button>
             </div>
             <div className='form-content'>
             <AppointmentForm/>

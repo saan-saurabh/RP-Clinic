@@ -23,13 +23,13 @@ function AppointmentForm() {
     };
     return (
         <div className='appointment-main-div'>
-            <div className='appointment-heading'>
-                MAKE APPOINTMENT
+            <div className='appointment-form-heading'>
+                APPOINTMENT FORM
             </div>
             <Box
                 component="form"
                 sx={{
-                    '& .MuiTextField-root': { m: 1, width: '35ch' },
+                    '& .MuiTextField-root': { mb:1, width: '35ch' },
                 }}
                 noValidate
                 autoComplete="off"
@@ -57,8 +57,8 @@ function AppointmentForm() {
                     />
                 </div>
             </Box>
-            <FormControl sx={{ m: 1, minWidth: '35ch' }}>
-                <FormLabel id="demo-controlled-radio-buttons-group" sx={{ fontSize: 17 }}>Gender</FormLabel>
+            <FormControl sx={{ mb: 1, minWidth: '35ch' }}>
+                <FormLabel id="demo-controlled-radio-buttons-group" sx={{ fontSize: 12 }}>Gender</FormLabel>
                 <RadioGroup
                     row
                     aria-labelledby="demo-controlled-radio-buttons-group"
@@ -71,7 +71,7 @@ function AppointmentForm() {
                 </RadioGroup>
             </FormControl>
             <br />
-            <FormControl sx={{ m: 1, minWidth: '35ch' }} size="small">
+            <FormControl sx={{ mb: 1, minWidth: '35ch' }} size="small">
                 <InputLabel id="demo-select-small-label">Age</InputLabel>
                 <Select
                     labelId="demo-select-small-label"
@@ -89,10 +89,10 @@ function AppointmentForm() {
             </FormControl>
             <br />
             <LocalizationProvider dateAdapter={AdapterDayjs}>
-                <DatePicker sx={{ m: 1, minWidth: '35ch'}}/>
+                <DatePicker sx={{ mb: 1, minWidth: '35ch'}}/>
             </LocalizationProvider>
             <br />
-            <FormControl sx={{ m: 1, minWidth: '35ch' }} size="small">
+            <FormControl sx={{ mb: 1, minWidth: '35ch' }} size="small">
                 <InputLabel id="demo-select-small-label">Time</InputLabel>
                 <Select
                     labelId="demo-select-small-label"
@@ -115,7 +115,7 @@ function AppointmentForm() {
                 </Select>
             </FormControl>
             <br />
-            <Box sx={{ '& button': { m: 1, minWidth: '36ch' } }}>
+            <Box sx={{ '& button': { mb: 1, minWidth: '36ch' } }}>
                 <Button variant='contained' size='large'>Book Appointment</Button>
             </Box>
         </div>

@@ -13,7 +13,7 @@
   .navbar-main-div .navbar-make-appointment-button .navbar-right-pane .link-menu{
     text-decoration: none;
   }
-  .navbar-main-div .navbar-make-appointment-button .navbar-right-pane button{
+  .navbar-main-div .navbar-make-appointment-button .navbar-right-pane .list-menu, .list-button{
     display:block;
     padding:8px;
     border:none;

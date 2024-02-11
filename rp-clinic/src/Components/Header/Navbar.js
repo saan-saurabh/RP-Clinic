@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, } from "react-router-dom";
+import Modal from '../Modal/Modal';
 import Home from '../../Routes/Home';
 import Services from '../../Routes/Services';
 import Contact from '../../Routes/Contact';
@@ -22,6 +23,7 @@ function Navbar({ isOpen, onClose, onOpen }) {
             <Link to="/contact" className='link-menu'><button className='list-menu'>CONTACT</button></Link>
             <Link to="/about" className='link-menu'><button className='list-menu'>ABOUT</button></Link>
             <button className='list-button' onClick={onOpen}>MAKE APPOINTMENT</button>
+            <Modal isOpen={isOpen} onClose={onClose}/>
           </div>
         </div>
       </div>

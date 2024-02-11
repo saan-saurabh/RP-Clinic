@@ -9,6 +9,7 @@ import Doctor from '../Components/Cards/Doctor'
 import TestimonialPanel from '../Components/Testimonials/TestimonialPanel'
 import TopScrollButton from '../Components/TopScrollButton/TopScrollButton'
 
+
 function Home() {
     const [isOpen, setIsOpen] = useState(false);
     const handleClose = () => {

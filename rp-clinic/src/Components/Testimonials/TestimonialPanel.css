@@ -1,13 +1,13 @@
 .testimonial-panel-main-div{
     width:100%;
-    background-color: #fff;
+    background-color: #aac9ed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
 }
 .testimonial-panel-main-div .testimonial-heading{
-    color:#7ba7d6;
+    color:#fff;
     letter-spacing: 1px;
     font-weight: bold;
     margin-bottom: 25px;
