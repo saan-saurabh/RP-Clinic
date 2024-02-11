@@ -1,0 +1,62 @@
+
+.contact-main-div .contact-message-details{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color:#fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    padding:5% 0%;
+}
+.contact-main-div .contact-message-details .details-wrapper-card{
+    width:100%;
+    background-color: #fff;
+    border-radius: 25px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.contact-main-div .contact-message-details .details-wrapper-card table{
+    border-left:3px solid #0D5DBD;
+    padding: 1%;
+}
+.contact-main-div .contact-message-details .details-wrapper-card table thead{
+    color:#0D5DBD;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-main-div .contact-message-details .details-wrapper-card table tbody{
+    color: #808080;;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.message-form-div{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5%;
+
+}
+
+.form-card{
+    width:25%;
+    display: block;
+    padding: 1%;
+    border-radius: 15px;
+}
+.leave-msg-heading{
+    font-size: 25px;
+    color: #808080;
+    font-weight: bold;
+}
+.leave-msg-form{
+    margin-top:5px;
+}
+
+
+

@@ -1,3 +1,10 @@
 .appointment-main-div{
     width:100%;
 }
+
+.appointment-main-div .appointment-form-heading{
+    color:#0D5DBD;
+    text-align: left;
+    margin-bottom: 2%;
+    font-weight: 500;
+}
