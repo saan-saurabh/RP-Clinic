@@ -12,6 +12,7 @@ import TourIcon from '@mui/icons-material/Tour';
 import './Contact.css';
 import { Button } from '@mui/material';
 import Footer from '../Components/Footer/Footer';
+import getthroughit from './getthroughit.png'
 
 function Contact() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,38 @@ function Contact() {
   return (
     <div className='contact-main-div'>
       <div className='messeage-form-time-table-main-div'>
+        <div className='message-form-div'>
+          <div className='get-through-image'>
+            <img src={getthroughit} alt='getthroughit'></img>
+          </div>
+          <div className='form-card'>
+            <div className='leave-msg-heading'>
+              Leave Message..
+            </div>
+            <div className='leave-msg-form'>
+              <form>
+              <TextField fullWidth id="filled-basic" label="Name" variant="filled" size='small'/>
+              <br/>
+              <br/>
+              <TextField fullWidth id="filled-basic" label="Email" variant="filled" size='small'/>
+              <br/>
+              <br/>
+              <TextField fullWidth
+          id="filled-multiline-static"
+          label="Message"
+          multiline
+          rows={4}
+          placeholder='Type your message'
+          variant="filled"
+        />
+        <br/>
+        <br/>
+        <Button variant='contained' size='medium'>Send</Button>
+
+              </form>
+              </div>
+          </div>
+        </div>
         <div className='contact-message-details'>
           <div className='details-wrapper-card'>
           <table>
@@ -80,36 +113,7 @@ function Contact() {
             </table>
           </div>
 
-        </div>
-        <div className='message-form-div'>
-          <div className='form-card'>
-            <div className='leave-msg-heading'>
-              Leave Message..
-            </div>
-            <div className='leave-msg-form'>
-              <form>
-              <TextField fullWidth id="filled-basic" label="Name" variant="filled" size='small'/>
-              <br/>
-              <br/>
-              <TextField fullWidth id="filled-basic" label="Email" variant="filled" size='small'/>
-              <br/>
-              <br/>
-              <TextField fullWidth
-          id="filled-multiline-static"
-          label="Message"
-          multiline
-          rows={4}
-          placeholder='Type your message'
-          variant="filled"
-        />
-        <br/>
-        <br/>
-        <Button fullWidth variant='contained' size='large'>Send</Button>
-
-              </form>
-              </div>
-          </div>
-        </div>
+        </div> 
       </div>
       <div className='energency-appointment-panel'>
         <EmergencyContactCard />

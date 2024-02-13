@@ -1,10 +1,17 @@
 import React from 'react';
 import DrSanjayProfileImg from './DrSanjayProfileImg.jpg';
+import doctorpatientimg from './doctorpatientimg.png'
 import './Doctor.css';
 
 function Doctor() {
+  const myStyle = {
+    width:"100%",
+    backgroundImage: `url(${doctorpatientimg})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+};
   return (
-    <div className='main'>
+    <div className='main' style={myStyle}>
         <span className='name-heading'>Know Your <span className='customized-doctor-heading'>Doctor!</span></span>
         <div className='wrapper'>
         <div className='inside'>
