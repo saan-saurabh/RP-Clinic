@@ -1,0 +1,28 @@
+.about-main-div{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100%;
+    padding: 4% 0%;
+}
+.about-us-image{
+    width:25%;
+}
+.about-us-image img{
+    height:86vh;
+    width:500px;
+}
+.letter-heading{
+    color:#7ba7d6;
+}
+.about-us-description{
+    width:50%;
+    display:block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color:#808080;
+    padding: 1%;
+    border: 2px solid #e4e4e4;
+    border-radius: 25px;
+}

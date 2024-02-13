@@ -1,6 +1,5 @@
 .main{
     width: 100%;
-    height:65vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fff;
     text-align: center;
@@ -10,36 +9,37 @@
     font-size:30px;
     font-weight: bold;
     letter-spacing: 0.5px;
-    color: #7ba7d6;
+    color: #0D5DBD;
 }
 .customized-doctor-heading{
     font-size: 45px;
 }
 .wrapper{
     display:flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    padding-top: 1%;
+    padding-top: 5%;
+    padding-right:15%;
+    padding-bottom:10%;
+    height:500px;
 }
+
 .inside{
-    width:50%;
-    display:flex;
-    padding:1%;
-    border:3px solid rgb(226, 226, 229);
+    width:35%;
+    display:block;
     border-radius: 10px;
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding:25px;
+    background-color: #fff;
 }
 .img{
-    width:25%;
-    padding: 2%;
-    border:3px solid rgb(226, 226, 229);
-    border-radius: 10px;
+    width:100%;
     background-color: #fff;
     text-align: center;
     font-size:16px;
     font-weight: bold;
     letter-spacing: 0.5px;
     color:#0D5DBD;
+    padding-bottom: 10px;
 }
 .img .doctor-qualification{
     color:#808080;
@@ -47,11 +47,10 @@
     font-weight: bold;
 }
 .description{
-    width:80%;
+    width:100%;
     font-size: 16px;
     letter-spacing: 1px;
     color:#808080;
-    padding:2%;
     text-align: justify;
     text-justify: inter-word;
     background-color:#fff;
