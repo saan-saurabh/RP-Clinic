@@ -8,6 +8,7 @@ import EmergencyContactCard from '../Components/Cards/EmergencyContactCard'
 import Doctor from '../Components/Cards/Doctor'
 import TestimonialPanel from '../Components/Testimonials/TestimonialPanel'
 import TopScrollButton from '../Components/TopScrollButton/TopScrollButton'
+import CrouselSlider from '../Components/CrouselCard/CrouselSlider'
 
 
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
     return (
         <div className='main-body'>
             <TopScrollButton />
-            <MainCrousel />
+            <CrouselSlider/>
             <BodyDescriptionCardFirst />
             <ServiceComponent />
             <Doctor />
