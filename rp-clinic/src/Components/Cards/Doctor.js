@@ -26,11 +26,10 @@ function Doctor() {
             Dr. Sanjay Kumar is a highly skilled orthopedic surgeon with 8+ years of experience,
             specializing in orthopedic care. He served as a residential doctor at two leading 
             healthcare institutions, Medanta - The Medicity in Gurugram and Apollo Hospitals in New Delhi.
-            Dr. Kumar's qualifications include MBBS, D-Ortho, and DNB-Ortho, demonstrating his commitment
-            to excellence in orthopedic medicine. He excels in various orthopedic procedures, including joint replacements,
-            fracture management, arthroscopic surgeries, and spinal interventions. Dr. Kumar's commitment to patient well-being,
-            combined with his clinical proficiency, makes him a trusted and sought-after orthopedic specialist in the region.
                 </span>
+            </div>
+            <div className='doctor-details-read-more'>
+              <button className='read-more-button'>Read more</button>
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@
     background-color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
-    border:2px solid #eeeded;
+    border-left:2px solid #0D5DBD;
 }
 .user-feedback-main .user-name-row{
     width:100%;

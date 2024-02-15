@@ -19,13 +19,12 @@
     justify-content: right;
     align-items: center;
     padding-top: 5%;
-    padding-right:15%;
     padding-bottom:10%;
-    height:500px;
+    padding-right:20%;
 }
 
 .inside{
-    width:35%;
+    width:25%;
     display:block;
     border-radius: 10px;
     padding:25px;
@@ -48,11 +47,30 @@
 }
 .description{
     width:100%;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
-    color:#808080;
+    color:#000;
     text-align: justify;
     text-justify: inter-word;
     background-color:#fff;
     font-weight: 400;
+}
+.doctor-details-read-more{
+    padding:5%;
+}
+.doctor-details-read-more .read-more-button{
+    padding:5%;
+    background-color: #0D5DBD;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border:2px solid #0D5DBD;
+    width:50%;
+
+}
+
+.doctor-details-read-more .read-more-button:hover{
+    background-color: #fff;
+    color:#0D5DBD;
 }
