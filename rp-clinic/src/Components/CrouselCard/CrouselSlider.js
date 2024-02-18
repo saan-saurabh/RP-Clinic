@@ -8,10 +8,10 @@ function CrouselSlider() {
     return (
         <Carousel showThumbs={false} showArrows={false} showStatus={false} autoPlay infiniteLoop transitiontime="5000">
             <div>
-                <img src={stethoscopeImg} alt="Image 1" style={{ height: '95vh' }} />
+                <img src={stethoscopeImg} alt="Image 1"/>
             </div>
             <div>
-                <img src={skeletonImg} alt="Image 2" style={{ height: '95vh' }} />
+                <img src={skeletonImg} alt="Image 2" />
             </div>
         </Carousel>
     )
