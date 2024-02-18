@@ -1,10 +1,11 @@
 .user-feedback-main{
-    width:20%;
-    height:20vh;
+    width:80%;
+    height:30vh;
     background-color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
-    border-left:2px solid #0D5DBD;
+    border:2px solid #dddcdc;
+    margin: 0 auto;
 }
 .user-feedback-main .user-name-row{
     width:100%;
@@ -43,7 +44,7 @@
     color:#808080;
 }
 .user-feedback-main .user-name-row .user-rating{
-    width:45%;
+    width:50%;
     background-color: #fff;
 }
 .user-feedback-main .feedbac-details{
@@ -57,9 +58,10 @@
 }
 .user-feedback-main .feedbac-footer{
     display: block;
+    width:80%;
     text-align: right;
     font-size: 12px;
     font-style: italic ;
     color:#808080;
-    padding: 1%;
+    padding: 2%;
 }

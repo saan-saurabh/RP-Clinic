@@ -1,5 +1,7 @@
 import React from 'react';
 import UserFeedbackCard from './UserFeedbackCard';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './TestimonialPanel.css';
 
 function TestimonialPanel() {
@@ -14,10 +16,12 @@ function TestimonialPanel() {
         <div className='testimonial-heading'>
             <span className='small-heading'>What Our </span><span className='bold-heading'>Patients Say</span>
         </div>
-        <div className='user-feedback-cards'>
+        <div style={{width:'40%', margin:'0 auto'}}>
+        <Carousel showThumbs={false}  showStatus={false} showIndicators={false} autoPlay infiniteLoop transitiontime="5000">
         {userFeedbacks.map((userfeedback)=>
         <UserFeedbackCard username={userfeedback.username} feedbackDate={userfeedback.feedbackDate} ratingValue={userfeedback.ratingValue} feedback={userfeedback.feedback}/>
         )}
+        </Carousel>
         </div>
     </div>
   );
