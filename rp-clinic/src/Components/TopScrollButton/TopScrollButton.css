@@ -17,12 +17,7 @@
     animation: movebtn 3s ease-in-out infinite;
     transition: all .5s ease-in-out;
     font-weight: bolder;
-  }
-  .icon-style:hover{
-    animation: none;
-    background: #fff;
-    color: #0D5DBD;
-    font-weight: bolder;
+    border: 2px solid #0D5DBD;
   }
   @keyframes movebtn {
     0%{
