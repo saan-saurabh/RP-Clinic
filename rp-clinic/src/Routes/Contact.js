@@ -12,7 +12,8 @@ import TourIcon from '@mui/icons-material/Tour';
 import './Contact.css';
 import { Button } from '@mui/material';
 import Footer from '../Components/Footer/Footer';
-import getthroughit from './getthroughit.png'
+import contact from './contact.png'
+import aboutuss from './aboutuss.png'
 
 function Contact() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ function Contact() {
       <div className='messeage-form-time-table-main-div'>
         <div className='message-form-div'>
           <div className='get-through-image'>
-            <img src={getthroughit} alt='getthroughit'></img>
+            <img src={contact} alt='getthroughit'></img>
           </div>
           <div className='form-card'>
             <div className='leave-msg-heading'>
