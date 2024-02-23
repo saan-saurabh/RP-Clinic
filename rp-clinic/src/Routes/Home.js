@@ -9,6 +9,7 @@ import Doctor from '../Components/Cards/Doctor'
 import TestimonialPanel from '../Components/Testimonials/TestimonialPanel'
 import TopScrollButton from '../Components/TopScrollButton/TopScrollButton'
 import CrouselSlider from '../Components/CrouselCard/CrouselSlider'
+import ServiceDemo from '../Components/Cards/ServiceDemo'
 
 
 function Home() {
@@ -24,12 +25,13 @@ function Home() {
             <TopScrollButton />
             <CrouselSlider/>
             <BodyDescriptionCardFirst />
+            <ServiceDemo/>
             <ServiceComponent />
-            <Doctor />
             <div className='energency-appointment-panel'>
                 <EmergencyContactCard />
                 <AppointmentComponent isOpen={isOpen} onClose={handleClose} onOpen={handleOpen} />
             </div>
+            <Doctor />
             <TestimonialPanel />
             <Footer />
         </div>

@@ -1,0 +1,46 @@
+.service-section-main-div{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.service-section-div-one{
+    width:45%;
+    border:2px solid black;
+    height:25vh;
+
+}
+.service-section-div-two{
+    width:45%;
+    border:2px solid black;
+    
+}
+.service-card-one{
+    width:75%;
+    display:block;
+    border:2px solid black;
+    padding:1%;
+
+}
+.description-wrapper{
+    display:flex;
+}
+.number-header{
+    width: 15%;
+    background-color: aliceblue;
+}
+.description-block{
+    width: 85%;
+    background-color: #A4D461;
+}
+.service-header{
+    width: 100%;
+    display:block;
+    font-size: 20px;
+    color:#A4D461;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.service-description{
+    width: 100%;
+    display:block;
+}
