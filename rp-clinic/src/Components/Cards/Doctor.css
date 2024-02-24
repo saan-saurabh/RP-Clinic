@@ -47,13 +47,13 @@
 }
 .description{
     width:100%;
-    font-size: 14px;
-    letter-spacing: 1px;
-    color:#000;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color:#808080;
     text-align: justify;
     text-justify: inter-word;
     background-color:#fff;
-    font-weight: 400;
+    font-weight: 500;
 }
 .doctor-details-read-more{
     padding:5%;

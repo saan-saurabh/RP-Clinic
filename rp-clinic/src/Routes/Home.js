@@ -26,12 +26,11 @@ function Home() {
             <CrouselSlider/>
             <BodyDescriptionCardFirst />
             <ServiceDemo/>
-            <ServiceComponent />
+            <Doctor />
             <div className='energency-appointment-panel'>
                 <EmergencyContactCard />
                 <AppointmentComponent isOpen={isOpen} onClose={handleClose} onOpen={handleOpen} />
             </div>
-            <Doctor />
             <TestimonialPanel />
             <Footer />
         </div>
