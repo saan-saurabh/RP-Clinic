@@ -1,4 +1,18 @@
 .service-section-main-div{
+    display:block;
+    padding:5% 0%;
+}
+.service-section-header{
+    width: 100%;
+    display: block;
+    color: #A4D461;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+}
+.service-section-description-div{
     width:100%;
     display:flex;
     justify-content: space-evenly;
@@ -11,13 +25,11 @@
 }
 .service-section-div-two{
     width:45%;
-    border:2px solid black;
     
 }
 .service-card-one{
     width:75%;
     display:block;
-    border:2px solid black;
     padding:1%;
 
 }
@@ -25,17 +37,20 @@
     display:flex;
 }
 .number-header{
-    width: 15%;
-    background-color: aliceblue;
+    width: 10%;
+    color: #A4D461;
+    font-size: 50px;
+    margin:0 auto;
+    text-align: center;
+    font-weight: 600;
 }
 .description-block{
-    width: 85%;
-    background-color: #A4D461;
+    width: 90%;
 }
 .service-header{
     width: 100%;
     display:block;
-    font-size: 20px;
+    font-size: 25px;
     color:#A4D461;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -43,4 +58,6 @@
 .service-description{
     width: 100%;
     display:block;
+    color:#808080;
+    letter-spacing: 0.5px;
 }
