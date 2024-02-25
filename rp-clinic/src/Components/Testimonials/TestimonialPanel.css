@@ -12,6 +12,14 @@
     font-weight: bold;
     margin-bottom: 5%;
 }
+.testimonial-wrapper{
+    display:flex;
+    width:80%;
+    margin:0 auto;
+}
+.testimonial-img{
+    width:50%;
+}
 .testimonial-panel-main-div .testimonial-heading .small-heading{
     font-size: 30px;
 }

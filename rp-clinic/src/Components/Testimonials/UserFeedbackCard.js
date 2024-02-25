@@ -9,7 +9,7 @@ function UserFeedbackCard({username,feedbackDate,ratingValue,feedback}) {
         <div className='user-name-row'>
             <div className='user-details'>
               <div className='user-avatar'><Avatar src="/broken-image.jpg" /></div>
-              <div className='user-name'>{username} </div>
+              <div className='user-name'>{" "}{username} </div>
             </div>
             <div className='user-rating'>
             <Rating name="read-only" value={ratingValue} readOnly size="small"/>
