@@ -19,8 +19,9 @@
 }
 .service-section-div-one{
     width:45%;
-    border:2px solid black;
-    height:25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .service-section-div-two{
