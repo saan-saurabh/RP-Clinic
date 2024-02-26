@@ -10,6 +10,7 @@ import TestimonialPanel from '../Components/Testimonials/TestimonialPanel'
 import TopScrollButton from '../Components/TopScrollButton/TopScrollButton'
 import CrouselSlider from '../Components/CrouselCard/CrouselSlider'
 import ServiceDemo from '../Components/Cards/ServiceDemo'
+import Dummy from '../Components/Cards/Dummy'
 
 
 function Home() {
@@ -27,6 +28,7 @@ function Home() {
             <BodyDescriptionCardFirst />
             <ServiceDemo/>
             <Doctor />
+            <Dummy/>
             <div className='energency-appointment-panel'>
                 <EmergencyContactCard />
                 <AppointmentComponent isOpen={isOpen} onClose={handleClose} onOpen={handleOpen} />
