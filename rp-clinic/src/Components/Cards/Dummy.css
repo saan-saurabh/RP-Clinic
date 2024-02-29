@@ -1,0 +1,27 @@
+.excellence-main-section{
+    width:75%;
+    padding: 5% 0%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+.excellence-card{
+    width:25%;
+    background-color: #A4D461;
+    color:#fff;
+    border-radius:15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:3% 0%;
+}
+.excellence-card-heading{
+    font-size: 45px;
+    font-weight: bold;
+    margin:0 auto;
+}
+.excellence-card-details{
+    font-size: 17px;
+    font-weight: 500;
+}
