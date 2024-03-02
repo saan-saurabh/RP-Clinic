@@ -22,3 +22,19 @@
 .footer-main-div .footer-inside-block table tbody{
     color:#000;
 }
+
+@media screen and (max-width: 992px) {
+    .footer-main-div{
+        width:100%;
+    }
+    .footer-column-headings {
+      font-size:12px !important;
+      font-weight:500;
+    }
+    .footer-columns{
+        display: block !important;
+    }
+    .footer-inside-block{
+        display: block !important;
+    }
+  } 
