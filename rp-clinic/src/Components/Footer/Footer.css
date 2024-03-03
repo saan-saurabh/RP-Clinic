@@ -28,13 +28,27 @@
         width:100%;
     }
     .footer-column-headings {
-      font-size:12px !important;
+      font-size:14px !important;
       font-weight:500;
     }
     .footer-columns{
         display: block !important;
+        margin:15px;
     }
     .footer-inside-block{
         display: block !important;
+        width:100% !important;
+    }
+    .footer-columns tbody{
+        font-size:14px !important;
+    }
+    .footer-columns .footer-location-details {
+        font-size:14px !important;
+    }
+    .footer-columns .footer-contact-details{
+        font-size:14px !important;
+    }
+    .footer-columns .footer-social-media-details{
+        font-size:14px !important;
     }
   } 

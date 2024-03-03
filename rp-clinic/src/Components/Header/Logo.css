@@ -7,3 +7,9 @@
     height:50px;
     width:200px;
 }
+@media screen and (max-width: 992px) {
+    .logo-img{
+        height:35px !important;
+        width:135px !important;
+    }
+}

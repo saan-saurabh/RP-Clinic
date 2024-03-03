@@ -18,17 +18,17 @@ function Footer() {
         </div>
         <div className='footer-columns'>
         <div className='footer-column-headings'>LOCATION</div><hr/>
-        <div>Mahila Hospital Road<br/>Near Cholera Ward, Jagdishpur <br/>Ballia, Uttar Pradesh - 277001</div>
+        <div className='footer-location-details'>Mahila Hospital Road<br/>Near Cholera Ward, Jagdishpur <br/>Ballia, Uttar Pradesh - 277001</div>
         </div>
         <div className='footer-columns'>
         <div className='footer-column-headings'>CONTACT</div><hr/>
-        <div>Mob: +91-9205570105</div>
-        <div>Mob: +91-7007570680</div>
-        <div>Email: rpclinic@gmail.com</div>
+        <div className='footer-contact-details'>Mob: +91-9205570105<br/>
+        Mob: +91-7007570680<br/>
+        mail: rpclinic@gmail.com</div>
         </div>
         <div className='footer-columns'>
         <div className='footer-column-headings'>ON SOCIAL MEDIA</div><hr/>
-        <SocialMediaHandles/>
+        <div className='footer-social-media-details'><SocialMediaHandles/></div>
         </div>
         </div>
     </div>
