@@ -39,3 +39,11 @@
     background-color: #fff;
     color:#0D5DBD;
   }
+
+  @media screen and (max-width: 992px) {
+    .navbar-main-div .navbar-make-appointment-button .navbar-right-pane .list-menu, .list-button{
+      font-size: 10px;
+      margin: 5px !important;
+      padding-top: 4px;
+    }
+  }

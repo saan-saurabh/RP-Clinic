@@ -22,7 +22,7 @@ function Navbar({ isOpen, onClose, onOpen }) {
             <Link to="/services" className='link-menu'><button className='list-menu'>SERVICES</button></Link>
             <Link to="/contact" className='link-menu'><button className='list-menu'>CONTACT</button></Link>
             <Link to="/about" className='link-menu'><button className='list-menu'>ABOUT</button></Link>
-            <button className='list-button' onClick={onOpen}>MAKE APPOINTMENT</button>
+            <button className='list-button' onClick={onOpen}>APPOINTMENT</button>
             <Modal isOpen={isOpen} onClose={onClose}/>
           </div>
         </div>
