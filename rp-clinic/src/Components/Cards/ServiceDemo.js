@@ -10,7 +10,7 @@ function ServiceDemo() {
             </div>
         <div className='service-section-description-div'>
             <div className='service-section-div-one'>
-                <img src={serviceImg} alt="service-img" width='750px'/>
+                <img className="service-section-img" src={serviceImg} alt="service-img"/>
             </div>
             <div className='service-section-div-two'>
                 <div className='service-card-one'>
