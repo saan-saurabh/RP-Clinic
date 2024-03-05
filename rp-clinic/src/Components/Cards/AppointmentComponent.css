@@ -11,7 +11,6 @@
 .appointment-component-main .appointment-heading{
     font-size: 30px;
     color: #fff;
-
 }
 .appointment-component-main .appointment-heading span{
     font-size: 17px;
@@ -33,4 +32,22 @@
     border: 3px solid #7ba7d6;
     background-color: #fff;
     color:#7ba7d6;
+}
+@media screen and (max-width: 992px) {
+    .appointment-component-main{
+        display: flex;
+        width:100%;
+        padding: 0;
+    }
+    .appointment-component-main .appointment-heading{
+        font-size: 25px;
+        margin: 5%;
+    }
+    .appointment-component-main .appointment-heading span{
+        font-size: 14px;
+    }
+    .appointment-component-main .appointment-button{
+        font-size: 14px;
+        margin: 5%;
+    }
 }

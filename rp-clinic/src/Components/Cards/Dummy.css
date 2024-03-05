@@ -25,3 +25,24 @@
     font-size: 17px;
     font-weight: 500;
 }
+@media screen and (max-width: 992px) {
+    .excellence-main-section{
+        width:100%;
+        display: block;
+    }
+    .excellence-card{
+        width:50%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .excellence-card-heading{
+        font-size: 25px;
+        font-weight: bold;
+        margin:0 auto;
+    }
+    .excellence-card-details{
+        font-size: 14px;
+    }
+
+}

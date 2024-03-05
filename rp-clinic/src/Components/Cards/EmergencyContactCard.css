@@ -33,3 +33,21 @@
     background-color: #fff;
     color:#aac9ed;
 }
+@media screen and (max-width: 992px) {
+    .emergency-contact-main{
+        display: flex;
+        width:100%;
+        padding: 0;
+    }
+    .emergency-contact-main .emergencycontact-heading{
+        font-size: 25px;
+        margin: 5%;
+    }
+    .emergency-contact-main .emergencycontact-heading span{
+        font-size: 14px;
+    }
+    .emergency-contact-main .emergency-call-button{
+        font-size: 14px;
+        margin: 5%;
+    }
+}
