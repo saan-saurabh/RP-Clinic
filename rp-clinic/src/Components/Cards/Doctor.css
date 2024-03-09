@@ -40,6 +40,10 @@
     color:#0D5DBD;
     padding-bottom: 10px;
 }
+.img img{
+    width: 150px;
+    height: 150px;
+}
 .img .doctor-qualification{
     color:#808080;
     font-size: 12px;
@@ -73,4 +77,39 @@
 .doctor-details-read-more .read-more-button:hover{
     background-color: #fff;
     color:#0D5DBD;
+}
+@media screen and (max-width: 992px) {
+    .main{
+    width: 100% !important;
+    }
+    .name-heading{
+        font-size:20px;
+    }
+    .customized-doctor-heading{
+        font-size: 25px;
+    }
+    .wrapper{
+    padding: 5%;
+    justify-content: center;
+    }
+    .inside{
+        width:50%;
+        display:block;
+    }
+    .img img{
+        width: 100px;
+        height: 100px;
+    }
+    .doctor-name{
+        font-size: 12px;
+    }
+    .img .doctor-qualification{
+        font-size: 10px;
+    }
+    .description{
+        font-size: 10px;
+    }
+    .doctor-details-read-more .read-more-button{
+        font-size: 10px;
+    }
 }

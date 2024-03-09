@@ -16,7 +16,7 @@ function Doctor() {
         <div className='wrapper'>
         <div className='inside'>
             <div className='img'>
-            <img src={DrSanjayProfileImg} alt='Dr Sanjay' width='150px' height='150px'/><br/>
+            <img src={DrSanjayProfileImg} alt='Dr Sanjay'/><br/>
                 <span className='doctor-name'>DR. SANJAY KUMAR</span>
                 <br/>
                 <span className='doctor-qualification'>MBBS,D-ORTHO,DNB-ORTHO</span>   

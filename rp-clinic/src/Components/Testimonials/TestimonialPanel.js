@@ -26,7 +26,7 @@ function TestimonialPanel() {
             <span className='small-heading'>What Our </span><span className='bold-heading'>Patients Say</span>
         </div>
         <div className='testimonial-wrapper'>
-        <div style={{width:'50%',marginLeft:'5%'}}>
+        <div className="testimonil-crousel" style={{width:'50%',marginLeft:'5%'}}>
         <Carousel showThumbs={false}  showStatus={false} showIndicators={false} autoPlay infiniteLoop transitiontime="5000">
         {userFeedbacks.map((userfeedback)=>
         <UserFeedbackCard username={userfeedback.username} feedbackDate={userfeedback.feedbackDate} ratingValue={userfeedback.ratingValue} feedback={userfeedback.feedback}/>
