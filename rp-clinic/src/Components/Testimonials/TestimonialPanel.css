@@ -17,6 +17,10 @@
     width:80%;
     margin:0 auto;
 }
+.testimonil-crousel{
+    width:'50%';
+    margin-left:'5%'
+}
 .testimonial-img{
     width:50%;
 }
@@ -30,4 +34,18 @@
     width:100%;
     display:flex;
     justify-content: space-evenly;
+}
+@media screen and (max-width: 992px) {
+    .testimonial-panel-main-div{
+        width:100%;
+    }
+    .testimonial-panel-main-div .testimonial-heading .small-heading{
+        font-size: 20px;
+    }
+    .testimonial-panel-main-div .testimonial-heading .bold-heading{
+        font-size: 25px;
+    }
+    .testimonial-panel-main-div{
+        width:100%;
+    }
 }
