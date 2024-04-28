@@ -1,6 +1,6 @@
 .service-component-main-div {
     width: 100%;
-    background-color: #A4D461;
+    background-color: #fff;
     padding: 5% 0% 5% 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
@@ -10,7 +10,7 @@
 .service-component-main-div .our-service-heading {
     width: 100%;
     display: block;
-    color: #fff;
+    color: #0D5DBD;
     font-size: 45px;
     font-weight: bold;
     text-align: center;
@@ -20,7 +20,7 @@
 .service-component-main-div .service-card-wrapper {
     display: flex;
     justify-content: space-evenly;
-    width: 60%;
+    width: 75%;
     align-items: center;
     padding: 1% 0% 1% 0%;
     margin: 0 auto;
@@ -28,25 +28,25 @@
 }
 
 .service-component-main-div .service-card {
-    width: 25%;
+    width: 35%;
     padding: 10px;
     height: 200px;
     border: 3px solid rgb(226, 226, 229);
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #0D5DBD;
     text-align: center;
 }
 
 .service-component-main-div .service-card .service-card-heading {
     font-size: 20px;
     font-weight: 500;
-    color: #A4D461;
+    color: #fff;
     letter-spacing: 0.5px;
 }
 
 .service-component-main-div .service-card .service-card-details {
     font-size: 16px;
-    color: #808080;
+    color: #fff;
     text-align: center;
     letter-spacing: 0.5px;
 }
