@@ -18,8 +18,8 @@
     margin:0 auto;
 }
 .testimonil-crousel{
-    width:'50%';
-    margin-left:'5%'
+    width:50%;
+    margin-left:5%
 }
 .testimonial-img{
     width:50%;
@@ -45,7 +45,9 @@
     .testimonial-panel-main-div .testimonial-heading .bold-heading{
         font-size: 25px;
     }
-    .testimonial-panel-main-div{
+    .testimonil-crousel{
         width:100%;
+        margin:0;
+        padding:0;
     }
 }

@@ -54,3 +54,33 @@
     width: 30%;
     height: 220px;
 }
+@media screen and (max-width: 992px) {
+    .service-component-main-div .our-service-heading{
+        font-size:20px !important;
+        margin-bottom: 10px;
+    }
+    .service-component-main-div .service-card-wrapper {
+        display: block;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    
+    }
+    .service-component-main-div .service-card{
+        width: 75%;
+        height: 150px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .service-component-main-div .service-card .service-card-heading {
+        font-size: 16px;
+    }
+    .service-component-main-div .service-card .service-card-details {
+        font-size: 13px;
+    }
+    .service-component-main-div .service-card:hover {
+        width: 65%;
+        height: 175px;
+    }
+}
