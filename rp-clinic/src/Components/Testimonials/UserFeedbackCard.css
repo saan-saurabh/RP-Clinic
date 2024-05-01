@@ -65,3 +65,20 @@
     color:#808080;
     padding: 2%;
 }
+@media screen and (max-width: 992px) {
+    .user-name{
+        font-size: 13px;
+    }
+    .user-feedback-main .user-name-row .user-rating{
+        width:50%;
+        background-color: #fff;
+    }
+    .user-feedback-main .feedbac-details{
+        height:5vh;
+        font-size: 13px;
+    }
+    .user-feedback-main .feedbac-footer{
+        font-size: 10px;
+
+    }
+}
