@@ -41,3 +41,13 @@
     cursor: pointer;
     border-radius: 10px;
 }
+@media screen and (max-width: 992px) {
+    .modal-main-div .modal-inside-div{
+        position: fixed;
+        top:6%;
+    }
+    .modal-main-div .modal-inside-div .modal-close-button-container .close-button{
+        width: 25px;
+        height:25px;
+    }
+}
