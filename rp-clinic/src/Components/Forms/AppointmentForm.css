@@ -8,3 +8,10 @@
     margin-bottom: 2%;
     font-weight: 500;
 }
+
+@media screen and (max-width: 992px) {
+    .appointment-main-div .appointment-form-heading{
+        font-size: 14px;
+        font-weight: 500;
+    } 
+}

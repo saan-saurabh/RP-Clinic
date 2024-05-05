@@ -39,8 +39,36 @@
     background-color: #fff;
     color:#0D5DBD;
   }
+  .navbar-hamburger-icon{
+    color:#0D5DBD;
+  }
+  .sidebar-main-div{
+    display: block;
+    width: 100%;
+    background-color: #7ba7d6;
+  }
+  .sidebar-main-div .sidebar-right-pane{
+    padding: 10px;
+  }
+  .sidebar-main-div .sidebar-right-pane .list-menu{
+    width: 100%;
+    border:none;
+    color:#0D5DBD;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #fff;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 13px;
+    padding: 2%;
+    margin-bottom: 1%;
 
+  }
   @media screen and (max-width: 992px) {
+    .navbar-main-div{
+      padding:5px 5px 0px 5px;
+    }
     .navbar-main-div .navbar-make-appointment-button .navbar-right-pane .list-menu, .list-button{
       font-size: 10px;
       margin: 5px !important;
