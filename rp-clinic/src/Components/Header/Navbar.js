@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, } from "react-router-dom";
 import Modal from '../Modal/Modal';
 import Home from '../../Routes/Home';
@@ -11,16 +11,20 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 function Navbar({ isOpen, onClose, onOpen }) {
   const [sideBarMenuListState, setSideBarMenuListState] = useState(false);
+  const [windowScreenSize,setWindowScreenSize] = useState(window.screen.width)
   const openSideBarMenuList = () => {
     setSideBarMenuListState(!sideBarMenuListState);
   }
+  useEffect(() => {
+    setWindowScreenSize(() => window.screen.width);
+  }, [windowScreenSize]);
   return (
     <Router>
       <div className='navbar-main-div'>
         <div>
           <Logo />
         </div>
-        {((window.screen.width) > 992) ?
+        {((windowScreenSize) > 992) ?
           <div className='navbar-make-appointment-button'>
             <div className='navbar-right-pane'>
               <Link to="/"></Link>
