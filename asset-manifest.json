@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/rp-clinic/static/css/main.a99e6fc7.css",
-    "main.js": "/rp-clinic/static/js/main.5f397af1.js",
-    "static/js/787.2733fd64.chunk.js": "/rp-clinic/static/js/787.2733fd64.chunk.js",
-    "static/media/doctorpatientimg.png": "/rp-clinic/static/media/doctorpatientimg.ca68933b52fcc37f64d6.png",
-    "static/media/skeletonpic.png": "/rp-clinic/static/media/skeletonpic.ea01e473c9c911f5ad36.png",
-    "static/media/serviceImg.png": "/rp-clinic/static/media/serviceImg.eaae5d8f0faaead941fe.png",
-    "static/media/stethoscopePic.png": "/rp-clinic/static/media/stethoscopePic.69b9510f5f099acc660f.png",
-    "static/media/aboutuss.png": "/rp-clinic/static/media/aboutuss.dc5d257d8c8d328de050.png",
-    "static/media/aboutus.png": "/rp-clinic/static/media/aboutus.ed30a9b71e297dc8ad70.png",
-    "static/media/contact.png": "/rp-clinic/static/media/contact.2d8c017328911cb54d26.png",
-    "static/media/testimonialImg.png": "/rp-clinic/static/media/testimonialImg.eca665ee5a148bc9d240.png",
-    "static/media/DrSanjayProfileImg.jpg": "/rp-clinic/static/media/DrSanjayProfileImg.82e5dad95013750ab8f1.jpg",
-    "static/media/RPClinicLogo.png": "/rp-clinic/static/media/RPClinicLogo.141e80ff9076128c466b.png",
-    "static/media/logo.svg": "/rp-clinic/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/rp-clinic/index.html",
-    "main.a99e6fc7.css.map": "/rp-clinic/static/css/main.a99e6fc7.css.map",
-    "main.5f397af1.js.map": "/rp-clinic/static/js/main.5f397af1.js.map",
-    "787.2733fd64.chunk.js.map": "/rp-clinic/static/js/787.2733fd64.chunk.js.map"
+    "main.css": "/RP-Clinic/static/css/main.a99e6fc7.css",
+    "main.js": "/RP-Clinic/static/js/main.f8b91c18.js",
+    "static/js/787.2733fd64.chunk.js": "/RP-Clinic/static/js/787.2733fd64.chunk.js",
+    "static/media/doctorpatientimg.png": "/RP-Clinic/static/media/doctorpatientimg.ca68933b52fcc37f64d6.png",
+    "static/media/skeletonpic.png": "/RP-Clinic/static/media/skeletonpic.ea01e473c9c911f5ad36.png",
+    "static/media/serviceImg.png": "/RP-Clinic/static/media/serviceImg.eaae5d8f0faaead941fe.png",
+    "static/media/stethoscopePic.png": "/RP-Clinic/static/media/stethoscopePic.69b9510f5f099acc660f.png",
+    "static/media/aboutuss.png": "/RP-Clinic/static/media/aboutuss.dc5d257d8c8d328de050.png",
+    "static/media/aboutus.png": "/RP-Clinic/static/media/aboutus.ed30a9b71e297dc8ad70.png",
+    "static/media/contact.png": "/RP-Clinic/static/media/contact.2d8c017328911cb54d26.png",
+    "static/media/testimonialImg.png": "/RP-Clinic/static/media/testimonialImg.eca665ee5a148bc9d240.png",
+    "static/media/DrSanjayProfileImg.jpg": "/RP-Clinic/static/media/DrSanjayProfileImg.82e5dad95013750ab8f1.jpg",
+    "static/media/RPClinicLogo.png": "/RP-Clinic/static/media/RPClinicLogo.141e80ff9076128c466b.png",
+    "static/media/logo.svg": "/RP-Clinic/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/RP-Clinic/index.html",
+    "main.a99e6fc7.css.map": "/RP-Clinic/static/css/main.a99e6fc7.css.map",
+    "main.f8b91c18.js.map": "/RP-Clinic/static/js/main.f8b91c18.js.map",
+    "787.2733fd64.chunk.js.map": "/RP-Clinic/static/js/787.2733fd64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a99e6fc7.css",
-    "static/js/main.5f397af1.js"
+    "static/js/main.f8b91c18.js"
   ]
 }
