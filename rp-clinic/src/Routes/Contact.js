@@ -8,6 +8,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import RingVolumeIcon from '@mui/icons-material/RingVolume';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
 import TourIcon from '@mui/icons-material/Tour';
 import './Contact.css';
 import { Button } from '@mui/material';
@@ -63,7 +64,7 @@ function Contact() {
             </tbody>
           </table>
           <table>
-            <thead><ContactMailIcon /> Contact Details</thead>
+            <thead><ContactPageIcon /> Contact Details</thead>
             <tbody>
               <tr>
                 <td><RingVolumeIcon fontSize='small' /> Mobile</td>

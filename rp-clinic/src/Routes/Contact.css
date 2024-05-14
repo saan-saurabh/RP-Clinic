@@ -20,14 +20,16 @@
 }
 
 .contact-main-div .contact-message-details .details-wrapper-card table{
-    border-left:3px solid #0D5DBD;
+    border-left:3px solid #A4D461;
     padding: 1%;
 }
 .contact-main-div .contact-message-details .details-wrapper-card table thead{
-    color:#0D5DBD;
+    color:#A4D461;
     font-size: 25px;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    align-items: center;
 }
 .contact-main-div .contact-message-details .details-wrapper-card table tbody{
     color: #808080;;
@@ -72,10 +74,10 @@
         margin-bottom: 5%;
     }
     .contact-main-div .contact-message-details .details-wrapper-card table thead{
-        font-size: 16px;
+        font-size: 14px;
     }
     .contact-main-div .contact-message-details .details-wrapper-card table tbody{
-        font-size: 13px;
+        font-size: 12px;
     }
     .messeage-form-time-table-main-div{
         width:100%;
