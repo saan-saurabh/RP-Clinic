@@ -51,7 +51,7 @@ function Navbar({ isOpen, onClose, onOpen }) {
       <Routes>
         <Route
           exact
-          path="/"
+          path="/RP-Clinic"
           element={<Home />}
         ></Route>
         <Route
