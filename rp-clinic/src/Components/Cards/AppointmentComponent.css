@@ -40,14 +40,14 @@
         padding: 0;
     }
     .appointment-component-main .appointment-heading{
-        font-size: 25px;
+        font-size: 20px;
         margin: 5%;
     }
     .appointment-component-main .appointment-heading span{
-        font-size: 14px;
+        font-size: 13px;
     }
     .appointment-component-main .appointment-button{
-        font-size: 14px;
+        font-size: 13px;
         margin: 5%;
     }
 }
