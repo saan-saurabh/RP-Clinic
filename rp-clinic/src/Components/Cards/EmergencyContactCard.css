@@ -40,14 +40,14 @@
         padding: 0;
     }
     .emergency-contact-main .emergencycontact-heading{
-        font-size: 25px;
+        font-size: 20px;
         margin: 5%;
     }
     .emergency-contact-main .emergencycontact-heading span{
-        font-size: 14px;
+        font-size: 13px;
     }
     .emergency-contact-main .emergency-call-button{
-        font-size: 14px;
+        font-size: 13px;
         margin: 5%;
     }
 }
